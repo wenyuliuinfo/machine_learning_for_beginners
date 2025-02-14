@@ -1,8 +1,8 @@
 # Logistic Regression to predict categories
 
 ## Table of Content
-  - [1. Introduction](#1-introduction)
-  - [2. Logistic Regression](#2-logistic-regression)
+- [1. Introduction](#1-introduction)
+- [2. Logistic Regression](#2-logistic-regression)
 
 ## 1. Introduction
 In this lesson on regression, one of the basic classic ML techniques, we will take a look at Logistic Regression. You would use this technique to discover patterns to predict binary categories.

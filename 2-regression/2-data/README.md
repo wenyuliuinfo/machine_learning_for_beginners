@@ -1,6 +1,6 @@
 # Build a Regression Model using Scikit-learn: prepare and visualize data
 
-## Table of Content
+## Table of Content 
 - [Build a Regression Model using Scikit-learn: prepare and visualize data](#build-a-regression-model-using-scikit-learn-prepare-and-visualize-data)
   - [Table of Content](#table-of-content)
   - [1. Introduction](#1-introduction)
@@ -23,5 +23,3 @@ Part of the data scientist's role is to demonstrate the quality and nature of th
 In this way, they are able to visually show relationships and gaps that are otherwise hard to see.
 
 Visualizations can also help determine the machine learning technique most appropriate for the data. A scatterplot that seems to follow a line, for example, indicates that the data is good candidate for a linear regression.
-
-
