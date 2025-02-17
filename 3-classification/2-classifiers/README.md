@@ -1,4 +1,4 @@
-# Classifier - Part 1
+# Classifiers
 
 In this lesson, you will use the dataset you saved from the last lesson.
 

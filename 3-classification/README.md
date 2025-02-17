@@ -4,5 +4,4 @@ The lessons in this section, you will build on your earlier study of regression 
 
 ## Lessons
 1. [Introduction to Classification](1-introduction/README.md)
-2. [Classifiers - part 1](2-classifiers-part1/README.md)
-3. [Classifiers - part 2](3-classifiers-part2/README.md)
+2. [Classifiers](2-classifiers/README.md)
