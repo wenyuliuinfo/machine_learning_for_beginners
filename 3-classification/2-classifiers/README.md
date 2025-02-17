@@ -26,12 +26,12 @@ Scikit-learn groups classification under Supervised Learning. The following meth
 ### Classifier Comparison
 Running through several and looking for a good result is a way to choose the classifier. Scikit-learn offers a side-by-side comparison on a created dataset, comparing KNeighbors, SVC two ways, GaussianProcessClassifier, DecisionTreeClassifier, QuadraticDiscrinationAnalysis, as showing here:
 
-![Image]('../images/comparison.png')
+![Image](../images/comparison.png)
 
 ### Decision Approach
 A better way than guessing is to follow the ideas on this Multiclass Classification sheet.
 
-![Image]('../images/decision_approach.png')
+![Image](../images/decision_approach.png)
 
 ### Reasoning
 Reasoning through different approaches given the constraints we have:
