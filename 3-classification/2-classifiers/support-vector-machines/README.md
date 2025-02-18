@@ -10,7 +10,7 @@ Support vector machines (SVMs) are a set of supervised learning methods used for
 On the other hand, `LinearSVC` is another implementation of Support Vector Classification for the case of a linear kernel. It also lacks some of the attributes of `SVC` and `NuSVC`, like support_. `LinearSVC` uses squared_hinge loss and due to its implementation in liblinear it also regularizes the intercept, if considered. This effect can however be reduced by carefully fine tuning its intercept_scaling parameter, which allows the intercept term to have a different regularization behavior compared to the other features. 
   
 ## 2. Multi-class Classification
-`SVC` and `NuSVC` implement the "one vs one" approach for multi-class classification. In total, $n_classes * (n_classes -1) / 2$ classifiers are constructed and each one trains data from two classes. 
+`SVC` and `NuSVC` implement the "one vs one" approach for multi-class classification. In total, n_classes * (n_classes -1) / 2 classifiers are constructed and each one trains data from two classes. 
 
 To provide a consistent interface with other classifiers, the `decision_function_shape` option allows to monotonically transform the results of "one vs one" classifiers to a "one vs rest" decision function of shape `(n_samples, n_classes)`, which is the default setting of the parameter.
 
