@@ -1,15 +1,12 @@
 # Classification Methods for Machine Learning
 
-You will use this dataset with a variety of classifiers to predict a given national cuisine based on a group of ingredients. While doing so, you will learn more about some of the ways that algorithms can be leveraged for classification.
+Classification is a form of **Supervised Learning** that uses a lot of regression algorithms. There are generally two types of classification: binary classification and multiclass classification.
+
 
 ## Lessons
-1. [Introduction to Classification](1-introduction/README.md)
 
-## 1. Preparation
 
-Prepare the dataset by balancing the data based on previous lesson.
-
-## 2. Choosing the classifier
+## 1. Choosing the classifier
 
 After the getting balanced dataset, you need to decide which algorithm to use for training.
 
@@ -28,10 +25,6 @@ Running through several and looking for a good result is a way to choose the cla
 
 ![Image](images/comparison.png)
 
-### Decision Approach
-A better way than guessing is to follow the ideas on this Multiclass Classification sheet.
-
-![Image](images/decision_approach.png)
 
 ### Reasoning
 Reasoning through different approaches given the constraints we have:
