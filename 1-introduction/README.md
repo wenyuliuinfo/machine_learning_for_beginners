@@ -1,17 +1,14 @@
 # Introduction to Machine Learning
 
-## Table of Content
-- [Introduction to Machine Learning](#introduction-to-machine-learning)
-  - [Table of Content](#table-of-content)
-  - [1. What is Machine Learning](#1-what-is-machine-learning)
-  - [2. Terminology](#2-terminology)
-  - [3. Learning Content](#3-learning-content)
-  - [4. Examples of Applied ML](#4-examples-of-applied-ml)
-  - [5. Conclusion](#5-conclusion)
+## Table of Contents
+1. [What is Machine Learning](#1-what-is-machine-learning)
+2. [Terminology](#2-terminology)
+3. [Learning Content](#3-learning-content)
+4. [Examples of Applied ML](#4-examples-of-applied-ml)
+5. [Conclusion](#5-conclusion)
 
 ## 1. What is Machine Learning
 The term Machine Learning is one of the most popular and frequently used terms of today. For a machine learning beginner, the subject can sometimes feel overwhelming. Therefore, it is important to understand what machine learning actually is, and to learn about it step by step, through practical examples.
-
 
 ## 2. Terminology
 Machine Learning (ML) is an important subset of artificial intelligence. ML is concerned with using specialized algorithms to uncover meaningful information and find hidden patterns from perceived data to corroborate the rational decision-making process.

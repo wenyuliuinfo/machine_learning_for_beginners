@@ -4,9 +4,8 @@ The lessons in this section cover types of regression in the context of machine 
 
 In this series of lessons, you will discover the differences between linear and logistic regression.
 
-
 ## Lessons
-- [1. Prerequisites](1-prerequisites/README.md)
-- [2. Data](2-data/README.md)
-- [3. Linear Regression](3-linear/README.md)
-- [4. Logistic Regression](4-logistic/README.md)
+1. [Prerequisites](1-prerequisites/README.md)
+2. [Data](2-data/README.md)
+3. [Linear Regression](3-linear/README.md)
+4. [Logistic Regression](4-logistic/README.md)

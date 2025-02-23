@@ -1,5 +1,11 @@
 # Build a Regression Model using Scikit-learn: regression methods
 
+## Table of Contents
+1. [Introduction](#1-introduction)
+2. [Linear Regression](#2-linear-regression)
+3. [Polynomial Regression](#3-polynomial-regression)
+4. [Categorical Features](#4-categorical-features)
+
 ## 1. Introduction
 While visualization allows you to make sense of data, the real power of Machine Learning comes from training models. Models are trained on historic data to automatically capture data dependencies, and they allow you to predict outcomes for new data, which the model has not seen before.
 

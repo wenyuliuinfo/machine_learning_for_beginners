@@ -1,11 +1,9 @@
 # Get started with Python and Scikit-learn
 
 ## Table of Content
-- [Get started with Python and Scikit-learn](#get-started-with-python-and-scikit-learn)
-  - [Table of Content](#table-of-content)
-  - [1. Introduction](#1-introduction)
-  - [2. Configurations](#2-configurations)
-  - [3. Your Machine Learning Environment](#3-your-machine-learning-environment)
+1. [Introduction](#1-introduction)
+2. [Configurations](#2-configurations)
+3. [Your Machine Learning Environment](#3-your-machine-learning-environment)
 
 ## 1. Introduction
 In this lesson, you will learn how to:

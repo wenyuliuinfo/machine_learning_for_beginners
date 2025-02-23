@@ -3,14 +3,14 @@
 Classification is a form of **Supervised Learning** that uses a lot of regression algorithms. There are generally two types of classification: binary classification and multiclass classification.
 
 ## Lessons
-- [1. Linear Models](1-linear-models/README.md)
-- [2. Support Vector Machines](2-support-vector-machines/README.md)
-- [3. Stochastic Gradient Descent](3-stochastic-gradient-descent/README.md)
-- [4. Nearest Neighbors](4-nearest-neighbors/README.md)
-- [5. Gaussian Processes](5-gaussian-processes/README.md)
-- [6. Decision Trees](6-decision-trees/README.md)
-- [7. Ensemble Methods](7-ensemble-methods/README.md)
-- [8. Multiclass and multioutput algorithms](8-multiclass-and-multioutput/README.md)
+1. [Linear Models](1-linear-models/README.md)
+2. [Support Vector Machines](2-support-vector-machines/README.md)
+3. [Stochastic Gradient Descent](3-stochastic-gradient-descent/README.md)
+4. [Nearest Neighbors](4-nearest-neighbors/README.md)
+5. [Gaussian Processes](5-gaussian-processes/README.md)
+6. [Decision Trees](6-decision-trees/README.md)
+7. [Ensemble Methods](7-ensemble-methods/README.md)
+8. [Multiclass and multioutput algorithms](8-multiclass-and-multioutput/README.md)
 
 
 ## 1. Choosing the classifier
