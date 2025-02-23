@@ -28,3 +28,18 @@ In addition to its computational efficiency (`n_classes` classifiers are needed)
 The `OutputCodeClassifier` consists in representing each class with a binary code. At fitting time, one binary classifier per bit in the code book is fitted. At prediction time, the classifiers are used to project new points in the class space and the class closest to the points is chosen.
 
 The main advantage of these strategies is that the number of classifiers used can be controlled by the user, either for compressing the model (0 < code_size < 1) or for making the model more robust to errors (code_size > 1).
+
+
+## 2. Multilabel Classification
+Multilabel classification (closely related to multioutput classification) is a classification task labeling each sample with `m` labels from `n_classes` possible classes, where `m` can be 0 to `n_classes` inclusive. This can be thought of as predicting properties of a sample that are not mutually exclusive.
+
+Formally, a binary output is assigned to each class, for every sample. Positive classes are indicated with 1 and negative classes with 0 or -1. It is thus comparable to running `n_classes` binary classification tasks. This approach treats each label independently whereas multilabel classifiers may treat the multiple classes simultaneously, accounting for correlated behavior among them.
+
+### 2.1 Multioutput Classifier
+Multilabel classification suppport can be added to any classifier with `MultiOutputClassifier`. This strategy consists of fitting one classifier per target. This allows multiple target variable classifications. The purpose of this class is to extend estimators to be able to estimate a series of target functions that are trained on a single X predictor matrix to predict a series of responses.
+
+
+## 3. Multiclass-Multiouput Classification
+Multiclass-multioutput classification (also known as multitask classification) is a classification task which labels each sample with a set of non-binary preperties. Both the number of properties and the number of classes per property is greater than 2. A single estimator thus handles several joint classification tasks. This is both a generalization of the multilabel classification task, which only considers binary attributes, as well as a generalization of the multiclass classification task, where only one property is considered.
+
+Note that all classifiers handling multiclass-multioutput tasks, support the multilabel classification task as a special scenario. Multitask classification is similar to the multioutput classification task with different model formulations.
